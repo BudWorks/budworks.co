@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
 
 export default function Home() {
@@ -14,7 +15,13 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<div className={styles.welcome}></div>
+				<div className={styles.welcome}>
+					<div className={styles.onboarding}>
+						<div className={styles.onboarding__logo}>
+							<Image src="/svg/logos/budworks_stack.svg" alt="BudWorks" fill />
+						</div>
+					</div>
+				</div>
 			</main>
 		</>
 	);

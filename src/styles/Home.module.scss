@@ -5,3 +5,14 @@
 	width: 100vw;
 	height: 100vh;
 }
+
+.onboarding {
+	position: absolute;
+	transform: $hv-center;
+	top: 50%;
+	left: 50%;
+	&__logo {
+		width: 75vw;
+		height: 35vh;
+	}
+}
